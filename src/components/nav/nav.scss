@@ -1,0 +1,29 @@
+
+.nav {
+  padding: 10px 0px;
+  .nav-items {
+    display: flex;
+    .nav-item {
+      // flex: 1 1;
+      &:not(:first-child) {
+        padding-left: 5px;
+      }
+      .nav-link {
+        &:link {
+          // text-decoration: underline;
+        }
+        &:visited {
+
+        }
+        &.active {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .divider {
+    padding-top: 3px;
+    margin: 2px 0px;
+    border-bottom: 1px solid green;
+  }
+}

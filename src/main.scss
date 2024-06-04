@@ -1,0 +1,11 @@
+
+@import './shared.scss';
+
+html {
+  background-color: $bg-color;
+  color: $text-color;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  a {
+    color: $link-color;
+  }
+}
